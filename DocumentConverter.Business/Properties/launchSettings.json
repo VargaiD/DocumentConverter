@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DocumentConverter.Business": {
+      "commandName": "Project",
+      "commandLineArgs": "-f ./SimpleExample.json -f ./ParsedExample.xml"
+    }
+  }
+}
