@@ -17,8 +17,9 @@ namespace DocumentConverter.API.Helpers
                 return;
 
             var fileParams = context.MethodInfo.GetParameters().Where(p => p.ParameterType == typeof(IFormFile));
+
             operation.RequestBody.Content[fileUploadMime].Schema.Properties =
-                fileParams.ToDictionary(k => k.Name, v => new OpenApiSchema()
+                fileParams.ToDictionary(k => k.Name != null ? k.Name : "", v => new OpenApiSchema()
                 {
                     Type = "string",
                     Format = "binary"

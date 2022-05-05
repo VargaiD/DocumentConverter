@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Helpers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DocumentConverter.Shared\DocumentConverter.Shared.csproj" />
   </ItemGroup>
 
