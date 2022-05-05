@@ -11,7 +11,7 @@ using System.Text;
 namespace DocumentConverter.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("document")]
     public class DocumentConverterController : Controller
     {
         // GET: DocumentConverterController
@@ -69,7 +69,7 @@ namespace DocumentConverter.API.Controllers
             }
             else
             {
-                return StatusCode(500); // exception should be logged in some kind of logging system
+                return StatusCode(500);
             }
         }
     }
