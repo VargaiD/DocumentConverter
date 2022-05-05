@@ -1,7 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json.Linq;
 using DocumentConverter.Data.Models;
-using DocumentConverter.Shared.Helpers;
 using DocumentConverter.Data.Accessors;
 
 namespace DocumentConverter.Tests

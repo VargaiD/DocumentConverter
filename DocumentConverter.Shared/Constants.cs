@@ -1,6 +1,4 @@
-﻿using System.Reflection;
-
-namespace DocumentConverter.Shared.Helpers
+﻿namespace DocumentConverter.Shared.Helpers
 {
     public static class Constants
     {

@@ -1,5 +1,4 @@
-﻿using DocumentConverter.Data;
-using DocumentConverter.Shared.Exceptions;
+﻿using DocumentConverter.Shared.Exceptions;
 using DocumentConverter.Data.Models;
 
 namespace DocumentConverter.Data.Accessors

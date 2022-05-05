@@ -4,7 +4,6 @@ using DocumentConverter.API.Models;
 using DocumentConverter.Business.Modules;
 using DocumentConverter.Data.Models;
 using DocumentConverter.Shared.Exceptions;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 
