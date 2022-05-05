@@ -34,3 +34,4 @@ Supported Functionality
 - Asynchronous operation so the server is more responsive
 - More tests, integration tests that test bigger part of functionality
 - AutoMapper to map models between layers
+- Work with streams to not load whole files into memory??
